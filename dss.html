@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Certs Event</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="inter.js"
+</head>
+<body>
+    <header>
+        <div class="logo">AI Certs</div>
+        <nav>
+            <ul>
+                <li><a href="#event-details">Event Details</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#speakers">Speakers</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="sign-up">Sign Up</button>
+    </header>
+    
+    <section class="hero">
+        <h1>Join Us for the AI Certs Event!</h1>
+        <p>Learn from the best in the industry and network with professionals.</p>
+        <div id="countdown"></div>
+    </section>
+
+    <section id="event-details">
+        <h2>Event Details</h2>
+        <p>Date: June 15, 2024</p>
+        <p>Location: Tech Conference Center, City Name</p>
+        <p>Description: Join us for an insightful event filled with talks, workshops, and networking opportunities.</p>
+    </section>
+
+    <section id="schedule">
+        <h2>Schedule</h2>
+        <div class="collapsible">
+            <button class="collapsible-header">Day 1</button>
+            <div class="collapsible-content">
+                <p>10:00 AM - Opening Keynote</p>
+                <p>11:00 AM - Workshop: AI in Healthcare</p>
+                <!-- More schedule items -->
+            </div>
+        </div>
+        <!-- More collapsible days -->
+    </section>
+
+    <section id="speakers">
+        <h2>Speakers</h2>
+        <div class="tabs">
+            <button class="tab-link" onclick="openTab(event, 'speaker1')">Speaker 1</button>
+            <button class="tab-link" onclick="openTab(event, 'speaker2')">Speaker 2</button>
+            <!-- More tabs -->
+        </div>
+        <div id="speaker1" class="tab-content">
+            <h3>Speaker 1 Name</h3>
+            <p>Bio and details about Speaker 1.</p>
+        </div>
+        <div id="speaker2" class="tab-content">
+            <h3>Speaker 2 Name</h3>
+            <p>Bio and details about Speaker 2.</p>
+        </div>
+        <!-- More tab contents -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 AI Certs. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
