@@ -43,7 +43,7 @@ function openTab(evt, tabName) {
     tabLinks.forEach(link => link.className = link.className.replace(' active', ''));
 
     document.getElementById(tabName).style.display = 'block';
-    evt.currentTarget.className += ' active';
+
 }
 
 // Default open first tab
